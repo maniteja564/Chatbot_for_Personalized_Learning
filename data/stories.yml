@@ -1,0 +1,57 @@
+version: "3.1"
+
+stories:
+
+- story: provide deep learning resources
+  steps:
+    - intent: request_deep_learning_resources
+    - action: action_provide_educational_resources
+
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: provide topic resources
+  steps:
+  - intent: request_topic_resources
+  - action: action_provide_educational_resources
+
+- story: handle feedback
+  steps:
+  - intent: provide_feedback
+  - action: action_collect_user_feedback
+  - action: utter_thank_feedback  # Ensure this is defined in your domain.yml
+
+- story: bot challenge
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- story: user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye

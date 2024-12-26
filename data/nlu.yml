@@ -1,0 +1,126 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - good afternoon
+    - hi there
+    - greetings
+    - howdy
+    - what's up
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you later
+    - bye bye
+    - take care
+    - see you around
+    - have a nice day
+    - catch you later
+    - good night
+    - farewell
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - absolutely
+    - sure
+    - that's right
+    - correct
+    - yep
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - nope
+    - not really
+    - I don't think so
+    - nah
+    - no way
+
+- intent: mood_great
+  examples: |
+    - I'm feeling great
+    - perfect
+    - wonderful
+    - amazing
+    - fantastic
+    - couldn't be better
+    - super happy
+    - I feel awesome
+    - life is good
+    - I'm on cloud nine
+
+- intent: mood_unhappy
+  examples: |
+    - I'm feeling down
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - super sad
+    - unhappy
+    - I feel terrible
+    - I'm not doing well
+    - I'm feeling blue
+    - I'm not okay
+    - things are not going well
+
+- intent: request_deep_learning_resources
+  examples: |
+    - I need resources for deep learning
+    - Can you provide me with deep learning resources?
+    - I want to learn deep learning
+    - Please give me resources for deep learning
+
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - are you real?
+    - are you an AI?
+    - are you a machine?
+
+- intent: request_topic_resources
+  examples: |
+    - I want to learn about Python
+    - Can you help me learn about machine learning?
+    - I need resources for deep learning
+    - Show me materials on JavaScript
+    - Can you guide me on algorithms?
+    - Provide some links for web development
+    - How can I learn about Kubernetes?
+    - Can you suggest resources on neural networks?
+    - I need tutorials on cloud computing
+    - Help me with Python programming tutorials
+    - Find some YouTube videos on data science
+    - Give me resources on computer vision
+
+- intent: provide_feedback
+  examples: |
+    - The bot was very helpful
+    - I think this chatbot is amazing
+    - You could add more content on AI
+    - The bot is great but needs improvement
+    - I liked the responses, but more examples would help
+    - It’s helpful, but can you add more topics?
+    - The bot could be faster
+    - The links provided were useful
+    - This chatbot is very effective for learning
+    - The bot’s suggestions are good
