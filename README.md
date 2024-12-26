@@ -18,4 +18,4 @@ To run the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/maniteja564/Chatbot-for-Personalized-Learning.git
+   git clone https://github.com/maniteja564/Chatbot_for_Personalized_Learning.git
