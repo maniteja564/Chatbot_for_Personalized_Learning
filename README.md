@@ -1,19 +1,23 @@
-# Chatbot_for_Personalized_Learning
+# Rasa Chatbot for Personalized Learning
 
 ## Overview
-The **Chatbot for Personalized Learning** is an intelligent system designed to provide personalized educational experiences for learners. By leveraging machine learning and natural language processing (NLP) techniques, this chatbot can understand user queries, recommend personalized learning paths, and assist with educational content based on individual preferences and learning styles.
+The **Rasa Chatbot for Personalized Learning** is an AI-powered chatbot built using the Rasa framework. It provides personalized learning experiences for users, particularly in deep learning and other educational courses. The chatbot offers tailored learning paths, resources, and interactive content, including YouTube video links and relevant educational materials.
+
+By leveraging natural language processing (NLP) and machine learning, the chatbot engages users in a conversational manner, guiding them through various learning resources based on their preferences, learning goals, and course interests.
 
 ## Features
-- **Personalized Learning Path**: The chatbot customizes the learning experience based on user preferences, previous interactions, and performance.
-- **Natural Language Understanding**: The system uses NLP to understand and respond to user queries in a conversational manner.
-- **Content Recommendations**: Based on user input, the chatbot recommends resources such as articles, videos, exercises, and quizzes.
-- **Progress Tracking**: It tracks the learner's progress and adapts the learning content accordingly to ensure efficient learning.
-- **Interactive Learning**: Engages users with interactive content like quizzes, flashcards, and practice questions.
+- **Personalized Learning Paths**: The chatbot customizes the learning journey based on user input such as preferred courses (e.g., Deep Learning, Machine Learning), skill levels, and goals.
+- **Course Recommendations**: Based on user queries, the chatbot suggests relevant courses and educational content from various platforms.
+- **Interactive Conversations**: Engages users with personalized interactions to keep them motivated and on track with their learning.
+- **Learning Progress Tracking**: The chatbot can store and update progress, suggesting the next steps in the learning path.
 
 ## Technologies Used
-- **Python**: The core programming language used for the chatbot’s backend development.
-- **Natural Language Processing (NLP)**: Libraries like NLTK, spaCy.
+- **Rasa**: An open-source framework for building conversational AI, used for the chatbot's core functionality.
+- **Python**: The primary programming language used for developing the chatbot.
+- **NLTK/spaCy**: NLP libraries for processing and understanding user input.
+
 ## Installation
+
 To run the project locally, follow these steps:
 
 1. Clone the repository:
